@@ -5,6 +5,12 @@
     flex-direction: column;
     row-gap: 30px;
 }
+@media only screen and (max-width: 600px) {
+    #LanguaghStyle{
+        width:100%;
+        height: 100%;
+    }
+    }
 #LanguaghStyle>button{
     background-color:  #3C4D67;
     height: 70px;
