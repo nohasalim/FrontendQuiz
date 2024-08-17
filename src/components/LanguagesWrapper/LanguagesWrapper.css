@@ -1,0 +1,24 @@
+#LanguaghStyle{
+    width:60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+#LanguaghStyle>button{
+    background-color:  #3C4D67;
+    height: 70px;
+    border-radius: 10px;
+    border: none;
+    color:aliceblue;
+    font-size: 30px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+
+}
+#LanguaghStyle img{
+    background-color: aliceblue;
+    border-radius: 10px;
+}

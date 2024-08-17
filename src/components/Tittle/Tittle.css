@@ -1,0 +1,26 @@
+#TittelStyle{
+    width:40%;
+    height: 100%;
+    display: flex;
+    
+    flex-direction: column;
+    row-gap: 30px;
+}
+@media only screen and (max-width: 600px) {
+    #TittelStyle{
+        width:100%;
+        height: 100%;
+        display: flex;
+        
+        flex-direction: column;
+        row-gap: 30px;
+    }
+  }
+#Header{
+    font-size: 50px;
+    color: aliceblue;
+}
+#Hint{
+    font-size: 20px;
+    color: gray;
+}
